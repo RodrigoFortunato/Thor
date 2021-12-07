@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thor.App", "src\Thor.App\Th
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thor.Business", "src\Thor.Business\Thor.Business.csproj", "{B2E216A1-C442-4F89-9923-8A8821FB96D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thor.Data", "Thor.Data\Thor.Data.csproj", "{08E0398D-9E2F-488A-9329-9B8F27575F10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B2E216A1-C442-4F89-9923-8A8821FB96D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2E216A1-C442-4F89-9923-8A8821FB96D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2E216A1-C442-4F89-9923-8A8821FB96D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E0398D-9E2F-488A-9329-9B8F27575F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E0398D-9E2F-488A-9329-9B8F27575F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E0398D-9E2F-488A-9329-9B8F27575F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E0398D-9E2F-488A-9329-9B8F27575F10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

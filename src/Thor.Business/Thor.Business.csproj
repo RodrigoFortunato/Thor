@@ -4,4 +4,11 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Notifications\" />
+    <Folder Include="Services\" />
+    <Folder Include="Validations\" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
 </Project>

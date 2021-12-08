@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Thor.App.Data;
+using Thor.Data.Context;
 
 namespace Thor.App
 {
@@ -31,6 +32,10 @@ namespace Thor.App
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
+
+            services.AddDbContext<MyDbContext>(optionsAction: options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString(name:"DefaultConnection")));
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
